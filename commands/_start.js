@@ -4,19 +4,13 @@
   need_reply: false
   auto_retry_time: 
   folder: 
-
-  <<ANSWER
-
-  ANSWER
-
-  <<KEYBOARD
-
-  KEYBOARD
+  answer: 
+  keyboard: 
   aliases: 
 CMD*/
 
 var button = [{ title : "⚜️ Joined ⚜️" , command : "⚜️ Joined ⚜️" }]
-Bot.sendInlineKeyboard(button , "*🛡 Please  Subscribe To our Channels : \n\n 1 @LegitAirdropDiscuss \n\n 2 @LegitAirdrop_andInvest \n\n 3 @Verifiedairdropshare\n\n 4 @Legit_bot_provider \n\n☑️ Done Subscribed! Click Joined*")
+Bot.sendInlineKeyboard(button , "*🛡 Please  Subscribe To our Channels : \n\n 1 @SantaBotPayment \n\n 2 @LegitAirdrop_andInvest \n\n 3 @Allwynbotsgarage\n\n 4 @UnknownScripterr99OfficiaL\n\n☑️ Done Subscribed! Click Joined*")
 
 function hello(message) {
   var greetings = ""
@@ -35,8 +29,8 @@ function doAttracted(channel) {
 function doAtractedByUser(refUser) {
   hello("")
   var balance = Libs.ResourcesLib.anotherUserRes("balance", refUser.telegramid)
- balance.add(2)
-Bot.sendMessageToChatWithId(refUser.chatId, "*🏧 New Referral : +2 BTT*");
+ balance.add(500)
+Bot.sendMessageToChatWithId(refUser.chatId, "*🏧 New Referral : +500 Santa*");
 }
 
 function doAlreadyAttracted(){

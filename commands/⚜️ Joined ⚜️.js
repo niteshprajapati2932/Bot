@@ -15,7 +15,7 @@ if (stat=="ban"){
 Bot.sendMessage("*You're Ban From Using The Bot ❌*");
 }else{
 
-let channel = "@LegitAirdropDiscuss";
+let channel = "@SantaBotPayment";
 let id = user.telegramid
 Api.getChatMember({ 
 chat_id : channel,

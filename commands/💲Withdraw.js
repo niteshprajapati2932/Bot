@@ -4,10 +4,7 @@
   need_reply: 
   auto_retry_time: 
   folder: 
-
-  <<ANSWER
-
-  ANSWER
+  answer: 
   keyboard: 
   aliases: 
 CMD*/
@@ -23,10 +20,10 @@ var wallet = User.getProperty("TRXwallet")
 if( wallet == undefined ){
 Bot.sendMessage("_❌ wallet Not set_")
 }else{
-if (balance.value() < 8){
-Bot.sendMessage("_❌ You have to own at least 8 BTT !_")
+if (balance.value() < 2500){
+Bot.sendMessage("_❌ You have to own at least 2500 Santa !_")
 }else{
-Bot.sendMessage("*📤 Enter Amount of BTT*")
+Bot.sendMessage("*📤 Enter Amount of Santa*")
 Bot.runCommand("auto")
 }
 }}

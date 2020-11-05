@@ -18,7 +18,7 @@ var msgid = User.getProperty("msgid")
 Api.deleteMessage({
 message_id : msgid
 })
-Bot.sendKeyboard("💰 Balance\n👫 Referral,🎁 Bonus,💲Withdraw,\n⚙️Set wallet,📞Support", "*▶️ Refer and Earn Tron*")
+Bot.sendKeyboard("💰 Balance\n👫 Referral,🎁 Bonus,💲Withdraw,\n⚙️Set wallet,📞Support", "*▶️ Refer and Earn Santa*")
 }
 if (user=="left"){
 Bot.runCommand("/start");

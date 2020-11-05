@@ -12,9 +12,4 @@ CMD*/
 let Ask = User.getProperty("Ask")
 var button = [{ title : "✏️Write me" , command : "Ask" }]
 Bot.sendInlineKeyboard(button , "*📫 Last Question :* "+Ask+"")
-let Ask = User.getProperty("Ask")
-var button = [{ title : "✏️Write me" , command : "Ask" }]
-Bot.sendInlineKeyboard(button , "*📫 Last Question :* "+Ask+"")
-let Ask = User.getProperty("Ask")
-var button = [{ title : "✏️Write me" , command : "Ask" }]
-Bot.sendInlineKeyboard(button , "*📫 Last Question :* "+Ask+"")
+

@@ -33,7 +33,7 @@ if(!canRun()){ return }
 User.setProperty("last_run_at", Date.now(), "integer");
 
 let balance = Libs.ResourcesLib.userRes("balance")
-balance.add(1)
+balance.add(250)
 Bot.sendMessage(
-  "*🎁 Congrats , you Received 1 BTT*"
+  "*🎁 Congrats , you Received 250 Santa*"
 )

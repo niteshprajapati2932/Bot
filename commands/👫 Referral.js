@@ -16,9 +16,9 @@ Bot.sendMessage("*You're Ban*");
 }else{
 
 let res = Libs.ResourcesLib.userRes("referral");
-let reflink=Libs.ReferralLib.currentUser.getRefLink("BTTearnBOT","Bot");
+let reflink=Libs.ReferralLib.currentUser.getRefLink("SantaTokenAirdropBot","Bot");
 let lib = Libs.ReferralLib
 var refList = lib.currentUser.refList.get();
-Bot.sendMessage("*⏯️ Total Invites : "+refList.length+" Users\n\n⛔️ Per Referral 2 BTT\n\n🔗 Referral Link ⬇️\n"+reflink+"*");
+Bot.sendMessage("*⏯️ Total Invites : "+refList.length+" Users\n\n⛔️ Per Referral 500 Santa\n\n🔗 Referral Link ⬇️\n"+reflink+"*");
 
 }
