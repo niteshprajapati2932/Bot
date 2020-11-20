@@ -12,6 +12,6 @@ User.addToGroup("user")
 
 if (user=="left"){
 
-Bot.sendMessage("*❌ You was not Joined our @legitindia channel ❌*")
+Bot.sendMessage("*❌ Must join all To Show Your Balance ❌*")
 
 }
