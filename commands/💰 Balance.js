@@ -9,7 +9,27 @@
   aliases: 
 CMD*/
 
-var balance = Libs.ResourcesLib.userRes("balance")
-var lib = Libs.ReferralLib
-var refList = lib.currentUser.refList.get();
-Bot.sendMessage("*🤴 User : "+user.first_name+"\n\n💰 Balance : "+balance.value().toFixed(2)+" Santa\n\n⚜️Refer And Earn More*")
+let stat = Bot.getProperty(""+user.telegramid+"");
+
+if (stat=="ban"){
+
+Bot.sendMessage("*You're Ban From Using The Bot ❌*");
+
+}else{
+
+let channel = "@UnknownScripterr99OfficiaL";
+
+let id = user.telegramid
+
+Api.getChatMember({ 
+
+chat_id : channel,
+
+user_id : id,
+
+on_result :"Bcheck"})
+
+}
+
+
+
