@@ -1,0 +1,17 @@
+var user = options.result.status;
+
+User.setProperty("status" , user, "string");
+
+if (user=="member" | user =="administrator" | user=="creator"){
+
+Bot.runCommand("BJoined2")
+
+User.addToGroup("user")
+
+}
+
+if (user=="left"){
+
+Bot.sendMessage("*❌ You was not Joined our @legitindia channel ❌*")
+
+}
